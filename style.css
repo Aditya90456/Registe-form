@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00B1FFFF -83%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+}
+.form{ 
+    height: 70vh;
+    width: 46vw; 
+    border-radius: 5px;
+    background: linear-gradient(120deg, rgba(255, 0, 0, 0.6) ,50%,rgba(0, 0, 0, 0.5)  );
+}
+.hed{
+    margin-top: 44px;
+    margin-left: 32%;
+}
+#reg{
+    color: white;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.box{
+    margin: 76px;
+}
+.name {
+    color: white;
+}
+.nm{
+    width: 29vw;
+    height: 3vh;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px skyblue solid;
+    color: white;
+    font-size: 23px;
+
+}
+.nm::placeholder{
+    color: wheat;
+    font-size: 18px;
+}
+.em{
+    margin-top: 33px;
+}
+.p{
+    margin-top: 33px;
+}
+.rep{
+    margin-top: 33px;
+}
+.btn{
+    margin-top: 22px;
+    margin-left: 63%;
+}
+.b{
+    width: 88px;
+    height: 33px;
+    background: linear-gradient(120deg, rgba(255, 98, 1, 0.9),50% ,rgba(255, 4, 4, 0.5));
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+}
